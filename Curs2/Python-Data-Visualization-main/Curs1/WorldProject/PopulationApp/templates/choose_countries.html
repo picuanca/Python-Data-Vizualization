@@ -1,0 +1,52 @@
+{% load static  %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>choose_countries</title>
+</head>
+<body>
+    <h1>choose_countries</h1>
+
+    <form action="" method="post">
+
+        <select name="measure" id="">
+            <option value="tari" {% if measure == 'tari' %} seleted {% endif %}
+            >Tari</option>
+            <option value="suprafete" {% if measure == 'suprafete' %} selected
+            {% endif %}
+            >Suprafete</option>     
+        
+        </select>
+
+
+        {% csrf_token %}
+
+        {% for country in countries  %}
+            <input type="checkbox" name="{{country}}" id="" 
+                {% if country in tari %}
+                    checked               
+                {% endif %}
+            
+            >
+            <label for="{{country}}"> {{country}}</label>
+            
+        {% endfor %}
+
+        <input type="submit" value="Alege">
+    </form>
+
+    {% if base64_image %}
+         <img src="data:image/png;base64,{{base64_image}}" alt="">
+
+    {% else %}
+         <img src="{% static result_image %}" alt="">
+
+    {% endif %}
+
+    
+   
+
+</body>
+</html>
