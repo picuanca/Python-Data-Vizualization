@@ -1,0 +1,1446 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2025-05-16T15:53:32.476Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "Product object (1)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2025-05-16T16:09:11.729Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "Sosete scumpe",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2025-05-16T16:28:19.096Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "Category object (1)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2025-05-16T16:28:35.431Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "Category object (1)",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2025-05-16T16:49:19.328Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "Sosete scumpe",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2025-05-16T16:50:13.802Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "materiale",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2025-05-16T16:51:19.802Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "Sosete ieftine",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Slug\", \"Category\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2025-05-16T17:03:05.631Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "3",
+            "object_repr": "masini scumpe",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2025-05-16T17:09:09.416Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "Sosete scumpe",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add product",
+            "content_type": 7,
+            "codename": "add_product"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change product",
+            "content_type": 7,
+            "codename": "change_product"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete product",
+            "content_type": 7,
+            "codename": "delete_product"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view product",
+            "content_type": 7,
+            "codename": "view_product"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add category",
+            "content_type": 8,
+            "codename": "add_category"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change category",
+            "content_type": 8,
+            "codename": "change_category"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete category",
+            "content_type": 8,
+            "codename": "delete_category"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view category",
+            "content_type": 8,
+            "codename": "view_category"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$VniXEDyYJ69k1wX8h77am6$CLN+/2O7nTtG9XWMCbyJbxrZhYFfIvGCRPutPtG41Qk=",
+            "last_login": "2025-05-16T15:47:50.909Z",
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "email": "admin@admin.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2025-05-16T15:34:33.345Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    
+    
+    {
+        "model": "sessions.session",
+        "pk": "etwnaoym9up0g5d6vwhav9fq9sowjv39",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAQBe_iGln-xD9Kes5grXdtHEC2FCcV4u4QKQW0b2bei0XY1hq3kZc4EzszyU6_WwJ85LYDukO7dY69rcuc-K7wgw5-7ZSfl8P9O6gw6rc2mFwitA51phD0VKTz4NEn71FLEMFM2RAJVbQVAqXS6Cg4Y0PJVhF7fwDyDTfn:1uFxHq:UmQdE9p5GkNRqva-SrS56fJU6T_FTscaHpx2EqWcEbk",
+            "expire_date": "2025-05-30T15:47:50.910Z"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 1,
+        "fields": {
+            "name": "sosete",
+            "description": "Orice fel de sosete scumpe sau ieftine",
+            "slug": "sosete"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 2,
+        "fields": {
+            "name": "materiale",
+            "description": "bumbac 100% made in bangladesh",
+            "slug": "materiale"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 3,
+        "fields": {
+            "name": "masini scumpe",
+            "description": "2 secunde 76.5km/h",
+            "slug": "masini-scumpe"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 4,
+        "fields": {
+            "name": "Beauty",
+            "description": "",
+            "slug": "beauty"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 5,
+        "fields": {
+            "name": "Beauty",
+            "description": "",
+            "slug": "beauty"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 6,
+        "fields": {
+            "name": "Fragrances",
+            "description": "",
+            "slug": "fragrances"
+        }
+    },
+   
+    {
+        "model": "shop.category",
+        "pk": 9,
+        "fields": {
+            "name": "Home Decoration",
+            "description": "",
+            "slug": "home-decoration"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 10,
+        "fields": {
+            "name": "Kitchen Accessories",
+            "description": "",
+            "slug": "kitchen-accessories"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 11,
+        "fields": {
+            "name": "Laptops",
+            "description": "",
+            "slug": "laptops"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 12,
+        "fields": {
+            "name": "Mens Shirts",
+            "description": "",
+            "slug": "mens-shirts"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 13,
+        "fields": {
+            "name": "Mens Shoes",
+            "description": "",
+            "slug": "mens-shoes"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 14,
+        "fields": {
+            "name": "Mens Watches",
+            "description": "",
+            "slug": "mens-watches"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 15,
+        "fields": {
+            "name": "Mobile Accessories",
+            "description": "",
+            "slug": "mobile-accessories"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 16,
+        "fields": {
+            "name": "Motorcycle",
+            "description": "",
+            "slug": "motorcycle"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 17,
+        "fields": {
+            "name": "Skin Care",
+            "description": "",
+            "slug": "skin-care"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 18,
+        "fields": {
+            "name": "Smartphones",
+            "description": "",
+            "slug": "smartphones"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 19,
+        "fields": {
+            "name": "Sports Accessories",
+            "description": "",
+            "slug": "sports-accessories"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 20,
+        "fields": {
+            "name": "Sunglasses",
+            "description": "",
+            "slug": "sunglasses"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 21,
+        "fields": {
+            "name": "Tablets",
+            "description": "",
+            "slug": "tablets"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 22,
+        "fields": {
+            "name": "Tops",
+            "description": "",
+            "slug": "tops"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 23,
+        "fields": {
+            "name": "Vehicle",
+            "description": "",
+            "slug": "vehicle"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 24,
+        "fields": {
+            "name": "Womens Bags",
+            "description": "",
+            "slug": "womens-bags"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 25,
+        "fields": {
+            "name": "Womens Dresses",
+            "description": "",
+            "slug": "womens-dresses"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 26,
+        "fields": {
+            "name": "Womens Jewellery",
+            "description": "",
+            "slug": "womens-jewellery"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 27,
+        "fields": {
+            "name": "Womens Shoes",
+            "description": "",
+            "slug": "womens-shoes"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 28,
+        "fields": {
+            "name": "Womens Watches",
+            "description": "",
+            "slug": "womens-watches"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 1,
+        "fields": {
+            "name": "Sosete ieftine",
+            "slug": "sosete-ieftine",
+            "description": "Foarte bune pentru invatat, in orice anotimp!!!",
+            "price": "3.00",
+            "image": "product_images/sosete-copii-cu-model-mingi-de-fotbal-conte-kids-tip-top-396-gri-1043-9809.webp",
+            "created": "2025-05-16T16:51:19.801Z",
+            "updated": "2025-05-16T15:53:32.475Z",
+            "category": 1
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 2,
+        "fields": {
+            "name": "Sosete scumpe",
+            "slug": "sosete-scumpe",
+            "description": "Nu este recomandat sarakilor (gluma)",
+            "price": "200.00",
+            "image": "product_images/sosete_scumpe.webp",
+            "created": "2025-05-16T17:09:09.415Z",
+            "updated": "2025-05-16T16:09:11.728Z",
+            "category": 1
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 3,
+        "fields": {
+            "name": "Produs din linie de comanda",
+            "slug": "produs-din-linie-de-comanda",
+            "description": "python manage.py shell",
+            "price": "10.00",
+            "image": "",
+            "created": "2025-05-16T17:27:14.704Z",
+            "updated": "2025-05-16T17:27:14.704Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 4,
+        "fields": {
+            "name": "Produsul 18",
+            "slug": "produsul-18",
+            "description": "",
+            "price": "18.00",
+            "image": "",
+            "created": "2025-05-16T17:40:51.259Z",
+            "updated": "2025-05-16T17:40:51.259Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 5,
+        "fields": {
+            "name": "Produsul 13",
+            "slug": "produsul-13",
+            "description": "",
+            "price": "13.00",
+            "image": "",
+            "created": "2025-05-16T17:42:22.635Z",
+            "updated": "2025-05-16T17:42:22.635Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 6,
+        "fields": {
+            "name": "Produsul 22",
+            "slug": "produsul-22",
+            "description": "",
+            "price": "22.00",
+            "image": "",
+            "created": "2025-05-16T17:42:28.578Z",
+            "updated": "2025-05-16T17:42:28.578Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 7,
+        "fields": {
+            "name": "Essence Mascara Lash Princess",
+            "slug": "essence-mascara-lash-princess",
+            "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
+            "price": "9.99",
+            "image": "",
+            "created": "2025-05-21T15:31:02.007Z",
+            "updated": "2025-05-21T15:31:02.008Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 8,
+        "fields": {
+            "name": "Essence Mascara Lash Princess",
+            "slug": "essence-mascara-lash-princess",
+            "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
+            "price": "9.99",
+            "image": "product_images/Essence_Mascara_Lash_Princess",
+            "created": "2025-05-21T15:57:11.985Z",
+            "updated": "2025-05-21T15:57:11.983Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 9,
+        "fields": {
+            "name": "Essence Mascara Lash Princess",
+            "slug": "essence-mascara-lash-princess",
+            "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
+            "price": "9.99",
+            "image": "product_images/Essence_Mascara_Lash_Princess_skbjiWy",
+            "created": "2025-05-21T16:11:25.036Z",
+            "updated": "2025-05-21T16:11:25.035Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 10,
+        "fields": {
+            "name": "Essence Mascara Lash Princess",
+            "slug": "essence-mascara-lash-princess",
+            "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
+            "price": "9.99",
+            "image": "",
+            "created": "2025-05-21T16:12:22.979Z",
+            "updated": "2025-05-21T16:12:22.979Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 11,
+        "fields": {
+            "name": "Essence Mascara Lash Princess",
+            "slug": "essence-mascara-lash-princess",
+            "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
+            "price": "9.99",
+            "image": "",
+            "created": "2025-05-21T16:12:48.110Z",
+            "updated": "2025-05-21T16:12:48.110Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 12,
+        "fields": {
+            "name": "Essence Mascara Lash Princess",
+            "slug": "essence-mascara-lash-princess",
+            "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
+            "price": "9.99",
+            "image": "",
+            "created": "2025-05-21T16:13:34.518Z",
+            "updated": "2025-05-21T16:13:34.518Z",
+            "category": 4
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 13,
+        "fields": {
+            "name": "Boxed Blender",
+            "slug": "boxed-blender",
+            "description": "The Boxed Blender is a powerful and compact blender perfect for smoothies, shakes, and more. Its convenient design and multiple functions make it a versatile kitchen appliance.",
+            "price": "39.99",
+            "image": "product_images/Boxed_Blender",
+            "created": "2025-05-21T17:24:03.441Z",
+            "updated": "2025-05-21T17:24:03.436Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 14,
+        "fields": {
+            "name": "Carbon Steel Wok",
+            "slug": "carbon-steel-wok",
+            "description": "The Carbon Steel Wok is a versatile cooking pan suitable for stir-frying, saut�ing, and deep frying. Its sturdy construction ensures even heat distribution for delicious meals.",
+            "price": "29.99",
+            "image": "product_images/Carbon_Steel_Wok",
+            "created": "2025-05-21T17:24:09.712Z",
+            "updated": "2025-05-21T17:24:09.707Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 15,
+        "fields": {
+            "name": "Chopping Board",
+            "slug": "chopping-board",
+            "description": "The Chopping Board is an essential kitchen accessory for food preparation. Made from durable material, it provides a safe and hygienic surface for cutting and chopping.",
+            "price": "12.99",
+            "image": "product_images/Chopping_Board",
+            "created": "2025-05-21T17:24:14.838Z",
+            "updated": "2025-05-21T17:24:14.826Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 16,
+        "fields": {
+            "name": "Citrus Squeezer Yellow",
+            "slug": "citrus-squeezer-yellow",
+            "description": "The Citrus Squeezer in Yellow is a handy tool for extracting juice from citrus fruits. Its vibrant color adds a cheerful touch to your kitchen gadgets.",
+            "price": "8.99",
+            "image": "product_images/Citrus_Squeezer_Yellow",
+            "created": "2025-05-21T17:24:19.401Z",
+            "updated": "2025-05-21T17:24:19.396Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 17,
+        "fields": {
+            "name": "Egg Slicer",
+            "slug": "egg-slicer",
+            "description": "The Egg Slicer is a convenient tool for slicing boiled eggs evenly. It's perfect for salads, sandwiches, and other dishes where sliced eggs are desired.",
+            "price": "6.99",
+            "image": "product_images/Egg_Slicer",
+            "created": "2025-05-21T17:24:23.713Z",
+            "updated": "2025-05-21T17:24:23.703Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 18,
+        "fields": {
+            "name": "Electric Stove",
+            "slug": "electric-stove",
+            "description": "The Electric Stove provides a portable and efficient cooking solution. Ideal for small kitchens or as an additional cooking surface for various culinary needs.",
+            "price": "49.99",
+            "image": "product_images/Electric_Stove",
+            "created": "2025-05-21T17:24:27.941Z",
+            "updated": "2025-05-21T17:24:27.936Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 19,
+        "fields": {
+            "name": "Fine Mesh Strainer",
+            "slug": "fine-mesh-strainer",
+            "description": "The Fine Mesh Strainer is a versatile tool for straining liquids and sifting dry ingredients. Its fine mesh ensures efficient filtering for smooth cooking and baking.",
+            "price": "9.99",
+            "image": "product_images/Fine_Mesh_Strainer",
+            "created": "2025-05-21T17:24:32.009Z",
+            "updated": "2025-05-21T17:24:32.003Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 20,
+        "fields": {
+            "name": "Fork",
+            "slug": "fork",
+            "description": "The Fork is a classic utensil for various dining and serving purposes. Its durable and ergonomic design makes it a reliable choice for everyday use.",
+            "price": "3.99",
+            "image": "product_images/Fork",
+            "created": "2025-05-21T17:24:38.196Z",
+            "updated": "2025-05-21T17:24:38.185Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 21,
+        "fields": {
+            "name": "Glass",
+            "slug": "glass",
+            "description": "The Glass is a versatile and elegant drinking vessel suitable for a variety of beverages. Its clear design allows you to enjoy the colors and textures of your drinks.",
+            "price": "4.99",
+            "image": "product_images/Glass",
+            "created": "2025-05-21T17:24:45.966Z",
+            "updated": "2025-05-21T17:24:45.954Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 22,
+        "fields": {
+            "name": "Grater Black",
+            "slug": "grater-black",
+            "description": "The Grater in Black is a handy kitchen tool for grating cheese, vegetables, and more. Its sleek design and sharp blades make food preparation efficient and easy.",
+            "price": "10.99",
+            "image": "product_images/Grater_Black",
+            "created": "2025-05-21T17:24:50.394Z",
+            "updated": "2025-05-21T17:24:50.384Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 23,
+        "fields": {
+            "name": "Hand Blender",
+            "slug": "hand-blender",
+            "description": "The Hand Blender is a versatile kitchen appliance for blending, pureeing, and mixing. Its compact design and powerful motor make it a convenient tool for various recipes.",
+            "price": "34.99",
+            "image": "product_images/Hand_Blender",
+            "created": "2025-05-21T17:24:55.468Z",
+            "updated": "2025-05-21T17:24:55.463Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 24,
+        "fields": {
+            "name": "Ice Cube Tray",
+            "slug": "ice-cube-tray",
+            "description": "The Ice Cube Tray is a practical accessory for making ice cubes in various shapes. Perfect for keeping your drinks cool and adding a fun element to your beverages.",
+            "price": "5.99",
+            "image": "product_images/Ice_Cube_Tray",
+            "created": "2025-05-21T17:24:59.635Z",
+            "updated": "2025-05-21T17:24:59.624Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 25,
+        "fields": {
+            "name": "Kitchen Sieve",
+            "slug": "kitchen-sieve",
+            "description": "The Kitchen Sieve is a versatile tool for sifting and straining dry and wet ingredients. Its fine mesh design ensures smooth results in your cooking and baking.",
+            "price": "7.99",
+            "image": "product_images/Kitchen_Sieve",
+            "created": "2025-05-21T17:25:05.108Z",
+            "updated": "2025-05-21T17:25:05.104Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 26,
+        "fields": {
+            "name": "Knife",
+            "slug": "knife",
+            "description": "The Knife is an essential kitchen tool for chopping, slicing, and dicing. Its sharp blade and ergonomic handle make it a reliable choice for food preparation.",
+            "price": "14.99",
+            "image": "product_images/Knife",
+            "created": "2025-05-21T17:25:10.191Z",
+            "updated": "2025-05-21T17:25:10.180Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 27,
+        "fields": {
+            "name": "Lunch Box",
+            "slug": "lunch-box",
+            "description": "The Lunch Box is a convenient and portable container for packing and carrying your meals. With compartments for different foods, it's perfect for on-the-go dining.",
+            "price": "12.99",
+            "image": "product_images/Lunch_Box",
+            "created": "2025-05-21T17:25:16.524Z",
+            "updated": "2025-05-21T17:25:16.513Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 28,
+        "fields": {
+            "name": "Microwave Oven",
+            "slug": "microwave-oven",
+            "description": "The Microwave Oven is a versatile kitchen appliance for quick and efficient cooking, reheating, and defrosting. Its compact size makes it suitable for various kitchen setups.",
+            "price": "89.99",
+            "image": "product_images/Microwave_Oven",
+            "created": "2025-05-21T17:25:21.720Z",
+            "updated": "2025-05-21T17:25:21.709Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 29,
+        "fields": {
+            "name": "Mug Tree Stand",
+            "slug": "mug-tree-stand",
+            "description": "The Mug Tree Stand is a stylish and space-saving solution for organizing your mugs. Keep your favorite mugs easily accessible and neatly displayed in your kitchen.",
+            "price": "15.99",
+            "image": "product_images/Mug_Tree_Stand",
+            "created": "2025-05-21T17:25:24.922Z",
+            "updated": "2025-05-21T17:25:24.911Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 30,
+        "fields": {
+            "name": "Pan",
+            "slug": "pan",
+            "description": "The Pan is a versatile and essential cookware item for frying, saut�ing, and cooking various dishes. Its non-stick coating ensures easy food release and cleanup.",
+            "price": "24.99",
+            "image": "product_images/Pan",
+            "created": "2025-05-21T17:25:30.028Z",
+            "updated": "2025-05-21T17:25:30.017Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 31,
+        "fields": {
+            "name": "Plate",
+            "slug": "plate",
+            "description": "The Plate is a classic and essential dishware item for serving meals. Its durable and stylish design makes it suitable for everyday use or special occasions.",
+            "price": "3.99",
+            "image": "product_images/Plate",
+            "created": "2025-05-21T17:25:32.848Z",
+            "updated": "2025-05-21T17:25:32.837Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 32,
+        "fields": {
+            "name": "Red Tongs",
+            "slug": "red-tongs",
+            "description": "The Red Tongs are versatile kitchen tongs suitable for various cooking and serving tasks. Their vibrant color adds a pop of excitement to your kitchen utensils.",
+            "price": "6.99",
+            "image": "product_images/Red_Tongs",
+            "created": "2025-05-21T17:25:38.997Z",
+            "updated": "2025-05-21T17:25:38.987Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 33,
+        "fields": {
+            "name": "Silver Pot With Glass Cap",
+            "slug": "silver-pot-with-glass-cap",
+            "description": "The Silver Pot with Glass Cap is a stylish and functional cookware item for boiling, simmering, and preparing delicious meals. Its glass cap allows you to monitor cooking progress.",
+            "price": "39.99",
+            "image": "product_images/Silver_Pot_With_Glass_Cap",
+            "created": "2025-05-21T17:25:45.083Z",
+            "updated": "2025-05-21T17:25:45.072Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 34,
+        "fields": {
+            "name": "Slotted Turner",
+            "slug": "slotted-turner",
+            "description": "The Slotted Turner is a kitchen utensil designed for flipping and turning food items. Its slotted design allows excess liquid to drain, making it ideal for frying and saut�ing.",
+            "price": "8.99",
+            "image": "product_images/Slotted_Turner",
+            "created": "2025-05-21T17:25:50.209Z",
+            "updated": "2025-05-21T17:25:50.197Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 35,
+        "fields": {
+            "name": "Spice Rack",
+            "slug": "spice-rack",
+            "description": "The Spice Rack is a convenient organizer for your spices and seasonings. Keep your kitchen essentials within reach and neatly arranged with this stylish spice rack.",
+            "price": "19.99",
+            "image": "product_images/Spice_Rack",
+            "created": "2025-05-21T17:25:55.639Z",
+            "updated": "2025-05-21T17:25:55.629Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 36,
+        "fields": {
+            "name": "Spoon",
+            "slug": "spoon",
+            "description": "The Spoon is a versatile kitchen utensil for stirring, serving, and tasting. Its ergonomic design and durable construction make it an essential tool for every kitchen.",
+            "price": "4.99",
+            "image": "product_images/Spoon",
+            "created": "2025-05-21T17:26:00.749Z",
+            "updated": "2025-05-21T17:26:00.737Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 37,
+        "fields": {
+            "name": "Tray",
+            "slug": "tray",
+            "description": "The Tray is a functional and decorative item for serving snacks, appetizers, or drinks. Its stylish design makes it a versatile accessory for entertaining guests.",
+            "price": "16.99",
+            "image": "product_images/Tray",
+            "created": "2025-05-21T17:26:06.841Z",
+            "updated": "2025-05-21T17:26:06.830Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 38,
+        "fields": {
+            "name": "Wooden Rolling Pin",
+            "slug": "wooden-rolling-pin",
+            "description": "The Wooden Rolling Pin is a classic kitchen tool for rolling out dough for baking. Its smooth surface and sturdy handles make it easy to achieve uniform thickness.",
+            "price": "11.99",
+            "image": "product_images/Wooden_Rolling_Pin",
+            "created": "2025-05-21T17:26:09.686Z",
+            "updated": "2025-05-21T17:26:09.676Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 39,
+        "fields": {
+            "name": "Yellow Peeler",
+            "slug": "yellow-peeler",
+            "description": "The Yellow Peeler is a handy tool for peeling fruits and vegetables with ease. Its bright yellow color adds a cheerful touch to your kitchen gadgets.",
+            "price": "5.99",
+            "image": "product_images/Yellow_Peeler",
+            "created": "2025-05-21T17:26:13.285Z",
+            "updated": "2025-05-21T17:26:13.274Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 40,
+        "fields": {
+            "name": "Apple MacBook Pro 14 Inch Space Grey",
+            "slug": "apple-macbook-pro-14-inch-space-grey",
+            "description": "The MacBook Pro 14 Inch in Space Grey is a powerful and sleek laptop, featuring Apple's M1 Pro chip for exceptional performance and a stunning Retina display.",
+            "price": "1999.99",
+            "image": "product_images/Apple_MacBook_Pro_14_Inch_Space_Grey",
+            "created": "2025-05-21T17:26:16.372Z",
+            "updated": "2025-05-21T17:26:16.362Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 41,
+        "fields": {
+            "name": "Asus Zenbook Pro Dual Screen Laptop",
+            "slug": "asus-zenbook-pro-dual-screen-laptop",
+            "description": "The Asus Zenbook Pro Dual Screen Laptop is a high-performance device with dual screens, providing productivity and versatility for creative professionals.",
+            "price": "1799.99",
+            "image": "product_images/Asus_Zenbook_Pro_Dual_Screen_Laptop",
+            "created": "2025-05-21T17:26:21.788Z",
+            "updated": "2025-05-21T17:26:21.778Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 42,
+        "fields": {
+            "name": "Huawei Matebook X Pro",
+            "slug": "huawei-matebook-x-pro",
+            "description": "The Huawei Matebook X Pro is a slim and stylish laptop with a high-resolution touchscreen display, offering a premium experience for users on the go.",
+            "price": "1399.99",
+            "image": "product_images/Huawei_Matebook_X_Pro",
+            "created": "2025-05-21T17:26:26.999Z",
+            "updated": "2025-05-21T17:26:26.989Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 43,
+        "fields": {
+            "name": "Lenovo Yoga 920",
+            "slug": "lenovo-yoga-920",
+            "description": "The Lenovo Yoga 920 is a 2-in-1 convertible laptop with a flexible hinge, allowing you to use it as a laptop or tablet, offering versatility and portability.",
+            "price": "1099.99",
+            "image": "product_images/Lenovo_Yoga_920",
+            "created": "2025-05-21T17:26:32.120Z",
+            "updated": "2025-05-21T17:26:32.109Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 44,
+        "fields": {
+            "name": "New DELL XPS 13 9300 Laptop",
+            "slug": "new-dell-xps-13-9300-laptop",
+            "description": "The New DELL XPS 13 9300 Laptop is a compact and powerful device, featuring a virtually borderless InfinityEdge display and high-end performance for various tasks.",
+            "price": "1499.99",
+            "image": "product_images/New_DELL_XPS_13_9300_Laptop",
+            "created": "2025-05-21T17:26:38.229Z",
+            "updated": "2025-05-21T17:26:38.218Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 45,
+        "fields": {
+            "name": "Blue & Black Check Shirt",
+            "slug": "blue-&-black-check-shirt",
+            "description": "The Blue & Black Check Shirt is a stylish and comfortable men's shirt featuring a classic check pattern. Made from high-quality fabric, it's suitable for both casual and semi-formal occasions.",
+            "price": "29.99",
+            "image": "product_images/Blue__Black_Check_Shirt",
+            "created": "2025-05-21T17:26:44.583Z",
+            "updated": "2025-05-21T17:26:44.573Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 46,
+        "fields": {
+            "name": "Gigabyte Aorus Men Tshirt",
+            "slug": "gigabyte-aorus-men-tshirt",
+            "description": "The Gigabyte Aorus Men Tshirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
+            "price": "24.99",
+            "image": "product_images/Gigabyte_Aorus_Men_Tshirt",
+            "created": "2025-05-21T17:26:51.373Z",
+            "updated": "2025-05-21T17:26:51.369Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 47,
+        "fields": {
+            "name": "Man Plaid Shirt",
+            "slug": "man-plaid-shirt",
+            "description": "The Man Plaid Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions.",
+            "price": "34.99",
+            "image": "product_images/Man_Plaid_Shirt",
+            "created": "2025-05-21T17:26:56.619Z",
+            "updated": "2025-05-21T17:26:56.608Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 48,
+        "fields": {
+            "name": "Man Short Sleeve Shirt",
+            "slug": "man-short-sleeve-shirt",
+            "description": "The Man Short Sleeve Shirt is a breezy and stylish option for warm days. With a comfortable fit and short sleeves, it's perfect for a laid-back yet polished look.",
+            "price": "19.99",
+            "image": "product_images/Man_Short_Sleeve_Shirt",
+            "created": "2025-05-21T17:27:01.299Z",
+            "updated": "2025-05-21T17:27:01.288Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 49,
+        "fields": {
+            "name": "Men Check Shirt",
+            "slug": "men-check-shirt",
+            "description": "The Men Check Shirt is a classic and versatile shirt featuring a stylish check pattern. Suitable for various occasions, it adds a smart and polished touch to your wardrobe.",
+            "price": "27.99",
+            "image": "product_images/Men_Check_Shirt",
+            "created": "2025-05-21T17:27:05.627Z",
+            "updated": "2025-05-21T17:27:05.623Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 50,
+        "fields": {
+            "name": "Nike Air Jordan 1 Red And Black",
+            "slug": "nike-air-jordan-1-red-and-black",
+            "description": "The Nike Air Jordan 1 in Red and Black is an iconic basketball sneaker known for its stylish design and high-performance features, making it a favorite among sneaker enthusiasts and athletes.",
+            "price": "149.99",
+            "image": "product_images/Nike_Air_Jordan_1_Red_And_Black",
+            "created": "2025-05-21T17:27:09.706Z",
+            "updated": "2025-05-21T17:27:09.695Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 51,
+        "fields": {
+            "name": "Nike Baseball Cleats",
+            "slug": "nike-baseball-cleats",
+            "description": "Nike Baseball Cleats are designed for maximum traction and performance on the baseball field. They provide stability and support for players during games and practices.",
+            "price": "79.99",
+            "image": "product_images/Nike_Baseball_Cleats",
+            "created": "2025-05-21T17:27:16.015Z",
+            "updated": "2025-05-21T17:27:16.005Z",
+            "category": null
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 52,
+        "fields": {
+            "name": "Puma Future Rider Trainers",
+            "slug": "puma-future-rider-trainers",
+            "description": "The Puma Future Rider Trainers offer a blend of retro style and modern comfort. Perfect for casual wear, these trainers provide a fashionable and comfortable option for everyday use.",
+            "price": "89.99",
+            "image": "product_images/Puma_Future_Rider_Trainers",
+            "created": "2025-05-21T17:27:19.560Z",
+            "updated": "2025-05-21T17:27:19.556Z",
+            "category": null
+        }
+    }
+]

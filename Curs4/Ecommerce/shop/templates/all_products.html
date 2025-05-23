@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>all_products</title>
+</head>
+<body>
+    <h1>all_products</h1>
+    <ol>
+
+    {% for prod in products  %}
+        <li>
+            <h2>{{prod.name}}</h2>
+            <p>{{prod.description}}</p>
+            <p>Pret: <b>{{prod.price}} lei </b></p>
+
+            {% if prod.image %}
+                <img src="{{prod.image.url}}" alt="">            
+            {% else %}
+                <p>Imaginea nu exista</p>
+            {% endif %}
+
+        
+
+        </li>
+    {% endfor %}
+
+    </ol>
+
+
+
+</body>
+</html>
